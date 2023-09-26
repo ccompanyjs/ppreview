@@ -1,0 +1,19 @@
+{
+  "name": "ppreview-components",
+  "version": "1.0.0",
+  "description": "ppreview-components",
+  "main": "index.js",
+  "scripts": {
+    "sass::compile": "sass sass/index.scss css/index.css",
+    "sass::watch": "sass --watch sass/index.scss css/index.css",
+    "server": "live-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "live-server": "^1.2.2",
+    "sass": "^1.68.0"
+  }
+}
