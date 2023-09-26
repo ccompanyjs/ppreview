@@ -6,7 +6,8 @@
   "scripts": {
     "sass::compile": "sass sass/index.scss css/index.css",
     "sass::watch": "sass --watch sass/index.scss css/index.css",
-    "server": "live-server ."
+    "server": "live-server .",
+    "deploy": "gh-pages -d ."
   },
   "keywords": [],
   "author": "",
