@@ -1,5 +1,6 @@
 // Colors and Fonts
 $DarkCyan: #3c8067;
+$DarkOakCyan: #1A4031;
 $Cream: #f2ebe3;
 $VeryDarkBlue: #1c232b;
 $DarkGrayishBlue: #6c7289;
@@ -10,6 +11,7 @@ $FontSize: 14px;
 
 * {
   box-sizing: border-box;
+  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -19,6 +21,9 @@ body {
   font-size: $FontSize;
   background-color: $Cream;
 }
+
+// Card
+@import 'card';
 
 // Attribution
 .attribution {
